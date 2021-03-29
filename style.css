@@ -123,6 +123,7 @@ body{
     justify-content: space-between;
     font-family: sans-serif;
     letter-spacing: 1.2px;
+    flex-wrap: wrap;
 }
 
 .cartitemimg{
@@ -165,6 +166,10 @@ body{
 
 .checkoutbutton{
     font-size: 21px;
+}
+
+.productexpandedimg {
+    flex-basis: 100%;
 }
 
 @media only screen and (max-width: 800px){
