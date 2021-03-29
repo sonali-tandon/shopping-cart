@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!--style sheets-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="cartnavigation">
+        <a href="cart.html"><img id="cart" src="images/cart.png" alt="car image"></a>
+        <div class="cancel">
+            <a class="cancelbutton" href="index.html" style="text-decoration: none; color: black;"><span id="cancel">&#10006;</span></a>
+        </div>
+    </nav>
+
+    <div class="cartitems">
+        <div class="cartheader">
+            <h3>YOUR ORDER</h3>
+            <h3>PRICE</h3>
+        </div>
+        <div class="cartcontent">
+            <div class="cartitem">
+                <div style="display: flex;">
+                    <a href="#" onclick="showandhideimg('product1','cartitemimg1','downarrow1')" style="text-decoration: none;"><img id="cartitemimg1" class="cartitemimg" src="images/p1.jpg" alt="freedom sweater"><i id="downarrow1" class="fa fa-angle-down" onclick="showandhideimg()" style="display: none; font-size: 30px; color: black; margin-top: 15px;"></i></a>
+                    <div class="cartproduct" style="display: inline;">
+                        <h4 style="margin-bottom: 5px; font-weight: bold;">DEMAND FREEDON SWEATER (M)</h4>
+                        <h4 style="margin:0px; font-weight: lighter; color: grey;">WALTER VAN BEIRENDONCK</h4>
+                    </div>
+                </div>
+                <h4 class="cartitemprice">$920.00</h4>
+            </div>
+            <div id="product1" style="display: none; padding-left: 40px; padding-top: 10px;">
+                <img class="productimages" src="images/p1.jpg" alt="product 1">
+            </div>
+
+            <div class="cartitem" style="padding-top: 20px;">
+                <div style="display: flex;">
+                    <a href="#" onclick="showandhideimg('product2','cartitemimg2','downarrow2')" style="text-decoration: none;"><img id="cartitemimg2" class="cartitemimg" src="images/p2.jpg" alt="trousers"><i id="downarrow2" class="fa fa-angle-down" onclick="showandhideimg()" style="display: none; font-size: 30px; color: black; margin-top: 15px;"></i></a>
+                    <div class="cartproduct" style="display: inline;">
+                        <h4 style="margin-bottom: 5px; font-weight: bold;">LIQUID METAL TROUSER (46)</h4>
+                        <h4 style="margin:0px; font-weight: lighter; color: grey;">HELIOT EMIL</h4>
+                    </div>
+                </div>
+                <h4 class="cartitemprice">$600.00</h4>
+            </div>
+            <div id="product2" style="display: none; padding-left: 40px; padding-top: 10px;">
+                <img class="productimages" src="images/p2.jpg" alt="product 2">
+            </div>
+
+            <div class="cartitem" style="padding-top: 20px;">
+                <div style="display: flex;">
+                    <a href="#" onclick="showandhideimg('product3','cartitemimg3','downarrow3')" style="text-decoration: none;"><img id="cartitemimg3" class="cartitemimg" src="images/p3.jpg" alt="bag"><i id="downarrow3" class="fa fa-angle-down" onclick="showandhideimg()" style="display: none; font-size: 30px; color: black; margin-top: 15px;"></i></a>
+                    <div class="cartproduct" style="display: inline;">
+                        <h4 style="margin-bottom: 5px; font-weight: bold;">RODEMAN LATE SHOW TOTE BAG</h4>
+                        <h4 style="margin:0px; font-weight: lighter; color: grey;">BRISCO</h4>
+                    </div>
+                </div>
+                <h4 class="cartitemprice">$60.00</h4>
+            </div>
+            <div id="product3" style="display: none; padding-left: 40px; padding-top: 10px;">
+                <img class="productimages" src="images/p3.jpg" alt="product 3">
+            </div>
+
+            <div class="cartitem" style="padding-top: 20px;">
+                <div style="display: flex;">
+                    <a href="#" onclick="showandhideimg('product4','cartitemimg4','downarrow4')" style="text-decoration: none;"><img id="cartitemimg4" class="cartitemimg" src="images/p4.jpg" alt="art t-shirt"><i id="downarrow4" class="fa fa-angle-down" onclick="showandhideimg()" style="display: none; font-size: 30px; color: black; margin-top: 15px;"></i></a>
+                    <div class="cartproduct" style="display: inline;">
+                        <h4 style="margin-bottom: 5px; font-weight: bold;">MODERN ART T-SHIRT (M)</h4>
+                        <h4 style="margin:0px; font-weight: lighter; color: grey;">CHINATOWN MARKET</h4>
+                    </div>
+                </div>
+                <h4 class="cartitemprice">$40.00</h4>
+            </div>
+            <div id="product4" style="display: none; padding-left: 40px; padding-top: 10px;">
+                <img class="productimages" src="images/p4.jpg" alt="product 4">
+            </div>
+
+            <div class="cartitem" style="padding-top: 20px;">
+                <div style="display: flex;">
+                    <a href="#" onclick="showandhideimg('product5','cartitemimg5','downarrow5')" style="text-decoration: none;"><img id="cartitemimg5" class="cartitemimg" src="images/p5.jpg" alt="angel t-shirt"><i id="downarrow5" class="fa fa-angle-down" onclick="showandhideimg()" style="display: none; font-size: 30px; color: black; margin-top: 15px;"></i></a>
+                    <div class="cartproduct" style="display: inline;">
+                        <h4 style="margin-bottom: 5px; font-weight: bold;">FALLEN ANGEL T-SHIRT (M)</h4>
+                        <h4 style="margin:0px; font-weight: lighter; color: grey;">VERYRARE</h4>
+                    </div>
+                </div>
+                <h4 class="cartitemprice">$598.00</h4>
+            </div>
+            <div id="product5" style="display: none; padding-left: 40px; padding-top: 10px;">
+                <img class="productimages" src="images/p5.jpg" alt="product 5">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="check" class="checkoutdiv" style="padding-bottom: 15px;">
+        <div class="csdiv" style="display: flex; align-items:flex-end;">
+            <i class="fa fa-angle-left" style="font-size: 20px; color: grey; padding-right: 8px;"></i><a class="contshopping" href="index.html" style="color: gray; display: inline; margin-bottom: 0px; text-decoration: none; font-weight: bold;">CONTINUE SHOPPING</a>
+        </div>
+        <div class="pricingdiv">
+        <div style="display: flex; justify-content: space-evenly;">
+            <div>
+                <p class="checkoutfont" style="color:rgb(97, 97, 97); font-weight: bolder; margin-bottom: 0px;">SUBTOTAL</p>
+                <p class="checkoutfont" style="font-weight: lighter; color: grey; text-align: end; font-size: 14px; margin-top: 8px;">TAX</p>
+                <p class="checkoutfont" style="color: rgb(15, 34, 119); font-weight: bolder; font-size: 19px; margin-bottom: 5px;">TOTAL</p>
+            </div>
+            <div style="text-align: end;">
+                <p class="checkoutfont" style="color:rgb(97, 97, 97); font-weight: bolder; margin-bottom: 0px;">$1718.00</p>
+                <p class="checkoutfont" style="font-weight: lighter; color: grey; font-size: 14px; margin-top: 8px;">158.91</p>
+                <p class="checkoutfont" style="color: rgb(15, 34, 119); font-weight: bolder; font-size: 19px; margin-bottom: 5px;">$1076.91</p>
+            </div>
+        </div>
+            <p class="shippingstat" style="font-weight: lighter; color: grey; line-height: 22px; text-align: right; margin-top: 0px;">Shipping will be calculated on the next screen</p>
+            <a class="checkoutbutton" href="checkout.html" style="background-color: black; color: white; text-decoration: none; padding: 23px 30px 23px 30px; border-radius: 5px; display: block; text-align: center;">Check Out</a>
+        </div>
+    </div>
+
+    <!--Javascript-->
+    <script src="script.js"></script>
+</body>
+</html>
