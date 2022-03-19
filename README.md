@@ -1,2 +1,3 @@
-# shopping-cart
-Shopping cart layout 
+# Shopping cart page template
+
+DEMO - https://sonali-tandon.github.io/shopping-cart/
